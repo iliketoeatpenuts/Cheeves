@@ -19,6 +19,7 @@ public class FlintsGoldHoarder extends Achievement implements IInventoryClick, I
 		super(achievementHandler);
 		flintItem = Item.Materials.GoldNugget.getItem();
 		flintItem.setDisplayName("§6Captain Flint's Gold");
+        flintItem.setLore("§3Looks like a piece of gold from the rusty treasure chest.")
 	}
  
 	@Override
